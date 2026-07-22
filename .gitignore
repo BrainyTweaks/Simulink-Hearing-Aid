@@ -1,0 +1,35 @@
+# MATLAB
+*.asv
+*.autosave
+*.m~
+*.mlx.autosave
+
+# Simulink
+*.slxc
+*.mex*
+*.p
+*.mdl.r*
+*.slx.r*
+
+# Generated code
+codegen/
+slprj/
+work/
+cache/
+
+# MATLAB preferences
+prefdir/
+
+# Reports and temporary outputs
+*.log
+*.tmp
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# MATLAB Project cache
+resources/project/
