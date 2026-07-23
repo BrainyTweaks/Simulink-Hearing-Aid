@@ -1,10 +1,8 @@
 # System Requirements Specification (SRS)
 
 > **Project:** Simulink Hearing Aid  
-> **MathWorks Challenge Project #241**  
+> **MathWorks Excellence in Innovation Challenge – Project #241**  
 > **Author:** Mohammed Sharif  
-> **Institution:** TKM College of Engineering  
-> **Degree:** Bachelor of Technology – Electronics and Communication Engineering  
 > **Version:** 1.0
 
 ---

@@ -3,8 +3,7 @@
 > **Project:** Simulink Hearing Aid  
 > **MathWorks Excellence in Innovation Challenge – Project #241**  
 > **Author:** Mohammed Sharif  
-> **Institution:** TKM College of Engineering  
-> **Version:** 1.0 (Work in Progress)
+> **Version:** 1.0
 
 ---
 
