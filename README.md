@@ -1,28 +1,31 @@
 # Simulink Hearing Aid
 
-> A modular real-time digital hearing aid simulation built using **MATLAB** and **Simulink** as part of the **MathWorks Excellence in Innovation Challenge (Project 241)**.
+> A modular digital hearing aid simulation built using **MATLAB R2025b** and **Simulink** as part of the **MathWorks Excellence in Innovation Challenge (Project 241)**.
 
 ---
 
 ## Overview
 
-The **Simulink Hearing Aid** project aims to simulate the complete digital signal processing pipeline of a modern hearing aid. Rather than simply amplifying sound, modern hearing aids intelligently process incoming audio to improve speech intelligibility, reduce environmental noise, prevent acoustic feedback, and adapt to different listening environments.
+**Simulink Hearing Aid** is an engineering-focused project that models the complete Digital Signal Processing (DSP) pipeline of a modern hearing aid using MATLAB and Simulink.
 
-This project is being developed as an educational and engineering platform to study real-time audio Digital Signal Processing (DSP) using MATLAB and Simulink.
+Rather than simply amplifying incoming sound, modern hearing aids employ multiple DSP algorithms to improve speech intelligibility, reduce environmental noise, prevent acoustic feedback, and adapt to changing acoustic environments in real time.
+
+This repository follows a modular architecture where each signal processing stage is developed, tested, and validated independently before being integrated into the complete hearing aid system.
 
 ---
 
-## Project Objectives
+## Objectives
 
-- Develop a modular hearing aid simulation in MATLAB and Simulink.
-- Understand the DSP algorithms used in modern hearing aids.
-- Implement and evaluate real-time audio processing techniques.
+- Develop a modular hearing aid simulation using MATLAB and Simulink.
+- Study the DSP techniques employed in modern hearing aids.
+- Design reusable and maintainable signal processing modules.
+- Validate each processing stage independently before full-system integration.
 - Follow professional software engineering and documentation practices.
-- Produce a reproducible project that can be executed with minimal setup.
+- Maintain a reproducible project with clean repository organization.
 
 ---
 
-## Planned Signal Processing Pipeline
+## Signal Processing Pipeline
 
 ```text
 Microphone
@@ -59,16 +62,17 @@ Speaker
 
 ## Planned Features
 
-- Real-time audio acquisition
+- Modular DSP architecture
 - Digital filtering
 - Multi-band equalization
 - Dynamic Range Compression (DRC)
 - Automatic Gain Control (AGC)
 - Noise reduction
 - Adaptive Feedback Cancellation (AFC)
-- Real-time visualization
+- Real-time audio processing
+- Signal visualization and analysis
 - Performance evaluation
-- Modular architecture for future expansion
+- Simulink-based system integration
 
 ---
 
@@ -81,6 +85,8 @@ Simulink-Hearing-Aid/
 ├── LICENSE
 ├── .gitignore
 │
+├── config/
+│
 ├── src/
 │
 ├── models/
@@ -90,11 +96,11 @@ Simulink-Hearing-Aid/
 │   └── datasets/
 │
 ├── docs/
-│   ├── images/
-│   ├── PROJECT_CONTEXT.md
-│   ├── USER_GUIDE.md
-│   ├── DEVELOPMENT_LOG.md
-│   └── REFERENCES.md
+│   ├── assets/
+│   ├── Literature Review.md
+│   ├── Simulink Design Specification.md
+│   ├── System Architecture.md
+│   └── System Requirements Specification.md
 │
 ├── tests/
 │
@@ -103,77 +109,114 @@ Simulink-Hearing-Aid/
 
 ---
 
-## Development Roadmap
+## Development Status
 
-### Phase 1
-- Literature review
-- Hearing aid architecture
-- DSP fundamentals
-- Project planning
+**Current Phase:** 🚧 Implementation
 
-### Phase 2
-- Filtering
-- Equalization
-- Dynamic Range Compression
+### Completed
 
-### Phase 3
-- Automatic Gain Control
-- Noise Reduction
-- Adaptive Feedback Cancellation
+- Repository initialization
+- Project architecture
+- DSP theory and research
+- System design
+- Documentation planning
+- Repository organization
 
-### Phase 4
-- Simulink integration
-- Real-time testing
-- Performance optimization
+### In Progress
 
-### Phase 5
-- Documentation
+- MATLAB project setup
+- Simulink model development
+- DSP module implementation
+- Independent module testing
+
+### Upcoming
+
+- End-to-end system integration
+- Real-time performance evaluation
+- System optimization
 - Final validation
 - Challenge submission
 
 ---
 
-## Software Requirements
+## Development Roadmap
 
-- MATLAB
-- Simulink
-- Audio Toolbox
-- Signal Processing Toolbox
+### Phase 1 — Research & System Design
 
-Additional toolboxes may be added during development if required.
+- Literature review
+- Hearing aid architecture
+- DSP fundamentals
+- System planning
+
+### Phase 2 — Core DSP Development
+
+- Digital filtering
+- Equalization
+- Dynamic Range Compression
+- Automatic Gain Control
+
+### Phase 3 — Advanced DSP
+
+- Noise Reduction
+- Adaptive Feedback Cancellation
+- Performance analysis
+- Module validation
+
+### Phase 4 — System Integration
+
+- Simulink integration
+- End-to-end testing
+- Real-time evaluation
+- Performance optimization
+
+### Phase 5 — Finalization
+
+- Documentation
+- Final validation
+- Repository review
+- MathWorks challenge submission
 
 ---
 
-## Current Status
+## Software Requirements
 
-**Project Initialization**
+- MATLAB R2025b
+- Simulink R2025b
+- Audio Toolbox
+- Signal Processing Toolbox
 
-- Repository created
-- Development environment configured
-- Literature review started
-- System architecture planning in progress
+Additional MathWorks toolboxes may be incorporated as the project evolves.
+
+---
+
+## Project Philosophy
+
+This project emphasizes engineering understanding over implementation speed.
+
+Each DSP block is developed as an independent module with a clearly defined purpose before integration into the complete hearing aid pipeline. Every design decision is documented to ensure transparency, reproducibility, and maintainability.
 
 ---
 
 ## Documentation
 
-Detailed documentation will be maintained throughout the project inside the `docs/` directory.
+Project documentation is maintained within the `docs/` directory.
 
-Planned documentation includes:
+Current documentation includes:
 
-- Project Context
-- User Guide
-- Development Log
-- Technical References
-- Final Report
+- Literature Review
+- System Requirements Specification
+- System Architecture
+- Simulink Design Specification
+
+Additional assets, diagrams, and figures are stored in the `docs/assets/` directory.
 
 ---
 
 ## Running the Project
 
-The project is currently under development.
+The implementation is currently under active development.
 
-A single main entry point will be provided once the first working version is completed, allowing the complete hearing aid simulation to run with minimal user intervention.
+Once the first stable release is available, a single entry point will be provided to execute the complete hearing aid simulation with minimal setup.
 
 ---
 
@@ -189,10 +232,6 @@ A single main entry point will be provided once the first working version is com
 ## Author
 
 **Mohammed Sharif**
-
-Electronics and Communication Engineering  
-TKM College of Engineering  
-India
 
 ---
 
